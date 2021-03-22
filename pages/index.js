@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          📸  攝影吹
+          📸  攝影吹你老母
         </h1>
         <p className="description">
         The arts, the tech, the gears, the business.... ALL about photography.<br/>關於攝影，無所不談；無所不吹。 <br/> 不論你係專業攝影師，定係攝影愛好者，入嚟吹吓攝影！
@@ -122,9 +122,9 @@ export default function Home() {
           align-items: center;
         }
         
-.contributing-row{
-  margin: 50px;
-}
+        .contributing-row{
+          margin: 50px;
+        }
 
         .contributing-btn{
           background-color: #ffffff;
@@ -132,7 +132,7 @@ export default function Home() {
           padding: 10px 20px;
           border-radius: 20px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          
+          display: inline-block;
         }
 
         .contributing-btn-color{
