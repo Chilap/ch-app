@@ -133,63 +133,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-        
-        .contributing-row{
-          margin: 50px;
-        }
 
-        .clubIcon {
-          display: inline-block;
-          // float: right;
-        }
-        .contributing-btn{
-          background-color: #ffffff;
-          margin: 10px;
-          padding: 10px 20px;
-          border-radius: 20px;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          display: inline-block;
-        }
-
-        .contributing-btn-color{
-          background-color:#208f8f;
-          color: #ffffff;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
 
         .title {
           margin: 0;
@@ -212,15 +156,6 @@ export default function Home() {
           font-size: 18px;
         }
 
-        // code {
-        //   background: #fafafa;
-        //   border-radius: 5px;
-        //   padding: 0.75rem;
-        //   font-size: 1.1rem;
-        //   font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-        //     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        // }
-
         .grid {
           display: flex;
           align-items: center;
@@ -231,25 +166,53 @@ export default function Home() {
           margin-top: 3rem;
         }
 
+        .contributing-row{
+          margin: 50px;
+        }
+
+        .contributing-btn{
+          background-color: #ffffff;
+          margin: 10px;
+          padding: 10px 20px;
+          border-radius: 20px;
+          display: inline-block;
+          transition-duration: 0.2s;
+        }
+
+        .contributing-btn:hover{
+          box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+          
+          // box-shadow: none;
+          color: #345678;
+        }
+
+        .contributing-btn-color{
+          background-color:#208f8f;
+          color: #ffffff;
+        }
+
+        .contributing-btn-color:hover{
+          color: #ffffff;
+        }
+
         .cardOfEvent {
           margin: 1rem;
           flex-basis: 45%;
           padding: 1.5rem;
           text-align: left;
           background: #ffffff;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
           color: inherit;
           text-decoration: none;
           border: 1px solid #eaeaea;
           border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
+          transition-duration: 0.2s;
         }
 
         .cardOfEvent:hover,
         .cardOfEvent:focus,
         .cardOfEvent:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
 
         .cardOfEvent h3 {
@@ -263,13 +226,28 @@ export default function Home() {
           line-height: 1.5;
         }
 
-        .logo {
-          height: 1em;
-        }
-
         .timeOfClub{
           color: #999999;
           font-size: 14px !important;
+        }
+
+        footer {
+          width: 100%;
+          height: 100px;
+          border-top: 1px solid #eaeaea;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        footer img {
+          margin-left: 0.5rem;
+        }
+
+        footer a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         @media (max-width: 600px) {
