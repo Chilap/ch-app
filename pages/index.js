@@ -20,10 +20,18 @@ export default function Home() {
           <a className = 'contributing-btn ' href='https://forms.gle/s5Td6AwUujQTMj6D7' target="_blank">✳️ Contribute as a Moderator</a>
           <a className = 'contributing-btn contributing-btn-color' href='https://forms.gle/qRm7hw1d5B6CvnXQA' target="_blank">💬 Request a Topic</a>
         </row>
-
-        <h3>
-            Our top speakers
+        
+        <h3><a 
+          href="https://www.joinclubhouse.com/club/%E3%80%8C%E6%94%9D%E5%BD%B1%E3%80%8D%E5%90%B9" 
+          target="_blank" 
+        >
+          <span>
+            <Image src="/home-icon.svg" width='12px' height='12px'/>
+          </span> &nbsp;
+          攝影吹 's Top Speaker
+        </a>
         </h3>
+
         <div class="cards">
           <div class="card">
             <Image 
