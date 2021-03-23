@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,84 +20,142 @@ export default function Home() {
           <a className = 'contributing-btn ' href='https://forms.gle/s5Td6AwUujQTMj6D7' target="_blank">✳️ Contribute as a Moderator</a>
           <a className = 'contributing-btn contributing-btn-color' href='https://forms.gle/qRm7hw1d5B6CvnXQA' target="_blank">💬 Request a Topic</a>
         </row>
+
+        <h3>
+            Our top speakers
+        </h3>
+        <div class="cards">
+          <div class="card">
+            <Image 
+              className = 'topSpeakerIcon'
+              src='/images/Yankov_icon.png' 
+              width = {50} 
+              height = {50}
+            />
+            <h2><a href="https://www.instagram.com/yankovwong/" target = '_blank'>Yankov Wong</a></h2>
+            <p>Commercial Photographer</p>
+          </div>
+          <div class="card">
+            <Image 
+              className = 'topSpeakerIcon'
+              src='/images/Eddie_icon.png' 
+              width = {50} 
+              height = {50}
+            />
+            <h2><a href="https://www.instagram.com/eddie_huynh/" target = '_blank'>Eddie Huynh</a></h2>
+            <p>🇭🇰 Photographer</p>
+          </div>
+          <div class="card">
+            <Image 
+              className = 'topSpeakerIcon'
+              src='/images/Roger_icon.png' 
+              width = {50} 
+              height = {50}
+            />
+            <h2><a href="https://www.instagram.com/rogertanphotography/" target = '_blank'>Roger Tan</a></h2>
+            <p>Top Wedding Photographer</p>
+          </div>
+          <div class="card">
+            <Image 
+              className = 'topSpeakerIcon'
+              src='/images/Daniel_icon.png' 
+              width = {50} 
+              height = {50}
+            />
+            <h2><a href="https://www.instagram.com/danieltamig/" target = '_blank'>Daniel Tam</a></h2>
+            <p>Top 10 Wedding Photographer</p>
+          </div>
+          <div class="card">
+            <Image 
+              className = 'topSpeakerIcon'
+              src='/images/Billy_icon.png' 
+              width = {50} 
+              height = {50}
+            />
+            <h2><a href="https://www.instagram.com/billyiu/" target = '_blank'>Billy Yiu</a></h2>
+            <p>Member of HKIPP</p>
+          </div>
+          
+        </div>
+        
         <div>
-          <h3 className="description grid-description">Press the card to schedule it 👋</h3>
-        <div className="grid">
-          <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+          <br/>
+          <h3 className="description grid-description">👋 Press the card to schedule it </h3>
+          <div className="grid">
+            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>一句得罪攝影師的說話</h3>
+              <p>Find in-depth information about Next.js features and API.</p>
+            </a>
 
-            <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
+            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
             
-            <h3>一句得罪攝影師的說話</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>有冇人試過Big Day 做 Live</h3>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
 
-          <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
 
+            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
+            
+            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
 
-          <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-          <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
-          <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>有冇人試過Big Day 做 Live</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a><a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+            <a
+              href="https://ios.joinclubhouse.com/event/MOGrvjO0"
+              className="cardOfEvent" target="_blank"
+            >
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>每個人都有個價，你呢？</h3>
+              <p>Discover and deploy boilerplate example Next.js projects.</p>
+            </a>
 
-
-          <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a><a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
-          <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-          <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
-
-
-          <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-          <a
-            href="https://ios.joinclubhouse.com/event/MOGrvjO0"
-            className="cardOfEvent" target="_blank"
-          >
-            <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>每個人都有個價，你呢？</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://www.joinclubhouse.com/event/M84NGJXA"
-            className="cardOfEvent" target="_blank"
-          >
-            <p className="timeOfClub">
-              THU, 21 March, 22:00 (HKT)
-            </p>
-            <h3>haha</h3>
-            <p>
-              呢個係testing嚟咋
-            </p>
-          </a>
-        </div>
-      
-        </div>
+            <a
+              href="https://www.joinclubhouse.com/event/M84NGJXA"
+              className="cardOfEvent" target="_blank"
+            >
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>haha</h3>
+              <p>
+                呢個係testing嚟咋
+              </p>
+            </a>
+          </div>
+        
+          </div>
        </main>
 
       <div className='footer'>
@@ -114,163 +172,7 @@ export default function Home() {
       </div>
 
       <style jsx>{`
-      @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          background-color: #f2efe4 !important;
-          font-family: "nunito";
-        }
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        .grid-description{
-          color: #333333;
-          font-size: 18px;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .contributing-row{
-          margin: 50px;
-        }
-
-        .contributing-btn{
-          background-color: #ffffff;
-          margin: 10px;
-          padding: 10px 20px;
-          border-radius: 20px;
-          display: inline-block;
-          transition-duration: 0.2s;
-        }
-
-        .contributing-btn:hover{
-          box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-          
-          // box-shadow: none;
-          color: #345678;
-        }
-
-        .contributing-btn-color{
-          background-color:#208f8f;
-          color: #ffffff;
-        }
-
-        .contributing-btn-color:hover{
-          color: #ffffff;
-        }
-
-        .cardOfEvent {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          background: #ffffff;
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition-duration: 0.2s;
-        }
-
-        .cardOfEvent:hover,
-        .cardOfEvent:focus,
-        .cardOfEvent:active {
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        }
-
-        .cardOfEvent h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .cardOfEvent p {
-          margin: 0;
-          font-size: 16px;
-          line-height: 1.5;
-        }
-
-        .timeOfClub{
-          color: #999999;
-          font-size: 14px !important;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
+        
       `}</style>
     </div>
   )

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2efe4 !important;
+  font-family: "nunito";
+  overflow: hidden;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+
+
+.cards {
+  display: flex;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  /* box-shadow: 3px 3px 12px 2px rgba(0, 0, 0, 0.6); */
+
+  box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.card:not(:first-child) {
+  margin-left: -2rem;
+}
+
+.card:not(:last-child):hover,
+.card:not(:last-child):focus-within {
+  transform: translateY(-1rem);
+}
+.card:not(:last-child):hover ~ .card,
+.card:not(:last-child):focus-within ~ .card {
+  transform: translateX(2rem);
+}
+
+.topSpeakerRow{
+  text-align: center;
+  background-color: #208f8f;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.topSpeakerCard {
+  background-color: #eaeaea;
+}
+
+.topSpeakerIcon{
+  display: inline-block;
+
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid-description{
+  color: #333333;
+  font-size: 18px;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.contributing-row{
+  margin: 50px;
+}
+
+.contributing-btn{
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  transition-duration: 0.2s;
+  
+}
+
+.contributing-btn:hover{
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #345678;
+}
+
+.contributing-btn-color{
+  background-color:#208f8f;
+  color: #ffffff;
+}
+
+.contributing-btn-color:hover{
+  color: #ffffff;
+}
+
+.cardOfEvent {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+.cardOfEvent:hover,
+.cardOfEvent:focus,
+.cardOfEvent:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardOfEvent h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.cardOfEvent p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.timeOfClub{
+  color: #999999;
+  font-size: 14px !important;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  margin-left: 0.5rem;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
