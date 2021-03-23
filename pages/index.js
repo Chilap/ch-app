@@ -12,6 +12,7 @@ export default function Home() {
         <h1 className="title">
           📸  攝影吹
         </h1>
+        <div className = 'text-cyan-600'>Testing message</div>
         <p className="description">
         The arts, the tech, the gears, the business.... ALL about photography.<br/>關於攝影，無所不談；無所不吹。 <br/> 不論你係專業攝影師，定係攝影愛好者，入嚟吹吓攝影！
         </p>
@@ -53,14 +54,14 @@ export default function Home() {
             <h2><a href="https://www.instagram.com/eddie_huynh/" target = '_blank'>Eddie Huynh</a></h2>
             <p>🇭🇰 Photographer</p>
           </div>
-          <div class="card">
+          <div className="card">
             <Image 
               className = 'topSpeakerIcon'
               src='/images/Roger_icon.png' 
               width = {50} 
               height = {50}
             />
-            <h2><a href="https://www.instagram.com/rogertanphotography/" target = '_blank'>Roger Tan</a></h2>
+            <h2 className='shadow-2xl'><a href="https://www.instagram.com/rogertanphotography/" target = '_blank'>Roger Tan</a></h2>
             <p>Top Wedding Photographer</p>
           </div>
           <div class="card">
