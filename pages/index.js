@@ -16,22 +16,26 @@ export default function Home() {
         The arts, the tech, the gears, the business.... ALL about photography.<br/>關於攝影，無所不談；無所不吹。 <br/> 不論你係專業攝影師，定係攝影愛好者，入嚟吹吓攝影！
         </p>
         <row className = 'contributing-row'>
-          <a className = 'contributing-btn' href='https://forms.gle/qoL5Kx8sG8hneozh9' target="_blank">Contribute as a Speaker</a>
-          <a className = 'contributing-btn ' href='https://forms.gle/s5Td6AwUujQTMj6D7' target="_blank">Contribute as a Moderator</a>
-          <a className = 'contributing-btn contributing-btn-color' href='https://forms.gle/qRm7hw1d5B6CvnXQA' target="_blank">Request a Topic</a>
+          <a className = 'contributing-btn' href='https://forms.gle/qoL5Kx8sG8hneozh9' target="_blank">🙋‍♂️ Contribute as an Expert Speaker</a>
+          <a className = 'contributing-btn ' href='https://forms.gle/s5Td6AwUujQTMj6D7' target="_blank">✳️ Contribute as a Moderator</a>
+          <a className = 'contributing-btn contributing-btn-color' href='https://forms.gle/qRm7hw1d5B6CvnXQA' target="_blank">💬 Request a Topic</a>
         </row>
         <div>
-          <h3 className="description grid-description">Press the card to schedule it &#8594;</h3>
+          <h3 className="description grid-description">Press the card to schedule it 👋</h3>
         <div className="grid">
           <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+
             <p className="timeOfClub">
               THU, 21 March, 22:00 (HKT)
             </p>
+            
             <h3>一句得罪攝影師的說話</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+
+
           <p className="timeOfClub">
               THU, 21 March, 22:00 (HKT)
             </p>
@@ -45,6 +49,8 @@ export default function Home() {
             <h3>有冇人試過Big Day 做 Live</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a><a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+
+
           <p className="timeOfClub">
               THU, 21 March, 22:00 (HKT)
             </p>
@@ -56,7 +62,10 @@ export default function Home() {
             </p>
             <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a><a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+          </a>
+          <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+
+
           <p className="timeOfClub">
               THU, 21 March, 22:00 (HKT)
             </p>
@@ -91,7 +100,8 @@ export default function Home() {
         </div>
        </main>
 
-      <footer className='footer'>
+      <div className='footer'>
+        {/* Change to the div to footer -> 1line of icons */}
         <a
           href="https://www.instagram.com"
           target="_blank"
@@ -99,7 +109,9 @@ export default function Home() {
         >
           (Going to Link.tree directing people to facebook / instagram)
         </a>
-      </footer>
+        <br/>
+        <p>or can be 4-5 icons of social media links</p>
+      </div>
 
       <style jsx>{`
       @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
@@ -126,6 +138,10 @@ export default function Home() {
           margin: 50px;
         }
 
+        .clubIcon {
+          display: inline-block;
+          // float: right;
+        }
         .contributing-btn{
           background-color: #ffffff;
           margin: 10px;
