@@ -89,12 +89,12 @@ export default function Home() {
         <div className = "weeklySchedule">
           <h3>🗓 Weekly Schedule</h3>
         <div className="dayBlock">
-            <h3>Sunday</h3>
+            <h3 className ="sundayhaha">Sunday</h3>
             <p>Tech Sharing</p>
           </div>
           <div className="dayBlock">
             <h3>Monday</h3>
-            <p>Tech Sharing</p>
+            <p>💃 Portrait</p>
           </div>
           <div className="dayBlock">
             <h3>Tuesday</h3>
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
           <div className="dayBlock">
             <h3>Friday</h3>
-            <p>Tech Sharing</p>
+            <p>🛠 Techincal Friday</p>
           </div>
           <div className="dayBlock">
             <h3>Saturday</h3>
