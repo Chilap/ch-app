@@ -90,76 +90,57 @@ export default function Home() {
           <br/>
           <h3 className="description grid-description">👋 Press the card to schedule it </h3>
           <div className="grid">
-            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
               <p className="timeOfClub">
                 THU, 21 March, 22:00 (HKT)
               </p>
               <h3>一句得罪攝影師的說話</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>攝影路上見得多煩客，入嚟吹吓攝影，吹吓水。</p>
             </a>
 
-            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
               <p className="timeOfClub">
                 THU, 21 March, 22:00 (HKT)
               </p>
               <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
+              <p>影product會唔會悶，product photography 真係咁好玩？</p>
             </a>
             
-            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
+            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
               <p className="timeOfClub">
                 THU, 21 March, 22:00 (HKT)
               </p>
               <h3>有冇人試過Big Day 做 Live</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
-            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
-            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
+              <p>咩叫BigDay, wedding? </p>
             </a>
             
-            <a href="https://ios.joinclubhouse.com/event/MOGrvjO0" className="cardOfEvent" target="_blank">
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
+            
             <a
-              href="https://ios.joinclubhouse.com/event/MOGrvjO0"
+              href="https://www.joinclubhouse.com/event/PNRJ40AR"
               className="cardOfEvent" target="_blank"
             >
               <p className="timeOfClub">
                 THU, 21 March, 22:00 (HKT)
               </p>
               <h3>每個人都有個價，你呢？</h3>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
+              <p>我淨係值3蚊</p>
             </a>
-
+            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
+              <p className="timeOfClub">
+                THU, 21 March, 22:00 (HKT)
+              </p>
+              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
+              <p>影product會唔會悶，product photography 真係咁好玩？</p>
+            </a>
             <a
-              href="https://www.joinclubhouse.com/event/M84NGJXA"
+              href="https://www.joinclubhouse.com/event/PNRJ40AR"
               className="cardOfEvent" target="_blank"
             >
               <p className="timeOfClub">
                 THU, 21 March, 22:00 (HKT)
               </p>
-              <h3>haha</h3>
-              <p>
-                呢個係testing嚟咋
-              </p>
+              <h3>Hello, devs</h3>
+              <p>唔知呢個網對攝影吹有冇用呢？ </p>
             </a>
           </div>
         
