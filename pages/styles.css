@@ -197,6 +197,16 @@ footer a {
   align-items: center;
 }
 
+.socialMediaIcon {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer{
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -183,15 +183,12 @@ export default function Home() {
 
       <div className='footer'>
         {/* Change to the div to footer -> 1line of icons */}
-        <a
-          href="https://www.instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          (Going to Link.tree directing people to facebook / instagram)
+        <a href="https://web.telegram.org/" target="_blank" className="socialMediaIcon">
+          <Image src= "/images/telegram-app.png" width="20px" height="20px"/>
         </a>
-        <br/>
-        <p>or can be 4-5 icons of social media links</p>
+        <a href="https://www.instagram.com" target="_blank" className="socialMediaIcon">
+          <Image src= "/images/Instagram_icon.png" width="20px" height="20px"/>
+        </a>
       </div>
 
       <style jsx>{`
