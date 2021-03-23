@@ -182,12 +182,15 @@ export default function Home() {
        </main>
 
       <div className='footer'>
-        {/* Change to the div to footer -> 1line of icons */}
         <a href="https://web.telegram.org/" target="_blank" className="socialMediaIcon">
           <Image src= "/images/telegram-app.png" width="20px" height="20px"/>
         </a>
         <a href="https://www.instagram.com" target="_blank" className="socialMediaIcon">
           <Image src= "/images/Instagram_icon.png" width="20px" height="20px"/>
+        </a>
+        <br/>
+        <a href="https://www.instagram.com/imyt_space/">
+          <p className = "siteBuiltBy">Site built by YT.</p>
         </a>
       </div>
 
