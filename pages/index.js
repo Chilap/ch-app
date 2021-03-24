@@ -158,7 +158,7 @@ export default function Home({clubs}) {
           <Image src= "/images/Instagram_icon.png" width="20px" height="20px"/>
         </a>
         <br/>
-        <a href="https://www.instagram.com/imyt_space/">
+        <a href="https://www.telegram.me/imytdotio">
           <p className = "siteBuiltBy">Site built by YT.</p>
         </a>
       </div>
