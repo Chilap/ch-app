@@ -6,7 +6,7 @@ export default function Home({clubs}) {
   return (
     <div className="container">
       <Head>
-        <title>📸 攝影吹</title>
+        <title>📸 攝影吹哈哈哈</title>
       </Head>
 
       <main>
