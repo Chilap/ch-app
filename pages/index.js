@@ -87,11 +87,11 @@ export default function Home({clubs}) {
           
         </div>
         
-        <div className = "weeklySchedule">
+        {/* <div className = "weeklySchedule">
           <h3>🗓 Weekly Schedule</h3>
-        <div className="dayBlock">
-            <h3 className ="sundayhaha">Sunday</h3>
-            <p>🦅 Free Talk</p>
+          <div className="dayBlock">
+              <h3 className ="sundayhaha">Sunday</h3>
+              <p>🦅 Free Talk</p>
           </div>
           <div className="dayBlock">
             <h3>Monday</h3>
@@ -117,8 +117,7 @@ export default function Home({clubs}) {
             <h3>Saturday</h3>
             <p>🦅 Free Talk</p>
           </div>
-          
-        </div>
+        </div> */}
 
         <div>
           <br/>
