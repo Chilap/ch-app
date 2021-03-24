@@ -171,7 +171,7 @@ export default function Home({clubs}) {
 }
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const clubs = await getClubs();
 
   return {
