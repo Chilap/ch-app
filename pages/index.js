@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import getClubs from '../lib/getClubs'
 
-export default function Home() {
+export default function Home({clubs}) {
   return (
     <div className="container">
       <Head>
@@ -122,59 +123,17 @@ export default function Home() {
         <div>
           <br/>
           <h3 className="description grid-description">👋 Press the card to schedule it </h3>
-          <div className="grid">
-            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>一句得罪攝影師的說話</h3>
-              <p>攝影路上見得多煩客，入嚟吹吓攝影，吹吓水。</p>
-            </a>
 
-            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
+          <div className="grid">
+            {clubs.map(club => (
+              <a href={club.fields.URL} className="cardOfEvent" target="_blank">
               <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
+                {club.fields.Time}
               </p>
-              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-              <p>影product會唔會悶，product photography 真係咁好玩？</p>
+              <h3>{club.fields.Name}</h3>
+              <p>{club.fields.Description}</p>
             </a>
-            
-            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>有冇人試過Big Day 做 Live</h3>
-              <p>咩叫BigDay, wedding? </p>
-            </a>
-            
-            
-            <a
-              href="https://www.joinclubhouse.com/event/PNRJ40AR"
-              className="cardOfEvent" target="_blank"
-            >
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>每個人都有個價，你呢？</h3>
-              <p>我淨係值3蚊</p>
-            </a>
-            <a href="https://www.joinclubhouse.com/event/PNRJ40AR" className="cardOfEvent" target="_blank">
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>乜真係有人鐘意影死物嘅咩？唔悶㗎？</h3>
-              <p>影product會唔會悶，product photography 真係咁好玩？</p>
-            </a>
-            <a
-              href="https://www.joinclubhouse.com/event/PNRJ40AR"
-              className="cardOfEvent" target="_blank"
-            >
-              <p className="timeOfClub">
-                THU, 21 March, 22:00 (HKT)
-              </p>
-              <h3>Hello, devs</h3>
-              <p>唔知呢個網對攝影吹有冇用呢？ </p>
-            </a>
+          ))}
           </div>
         
           </div>
@@ -210,4 +169,15 @@ export default function Home() {
       `}</style>
     </div>
   )
+}
+
+
+export async function getStaticProps() {
+  const clubs = await getClubs();
+
+  return {
+    props: {
+      clubs,
+    },
+  };
 }
