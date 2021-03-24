@@ -42,7 +42,7 @@ export default function Home() {
             />
             <h2><a href="https://www.instagram.com/yankovwong/" target = '_blank'>Yankov Wong</a></h2>
             <p>Commercial Photographer</p>
-          </div>
+          </div>
           <div class="card">
             <Image 
               className = 'topSpeakerIcon'
@@ -178,7 +178,18 @@ export default function Home() {
           </div>
         
           </div>
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8neJVMHjwZwyDbMGGAd_u5j6IY9VkRRbVgfA8FxQ09b1plvjMDJLHA6EFaSS09MVl234idSS4QTkw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <div className="presentation">
+            <h3><em>"Today's Title"</em> Slides</h3>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8neJVMHjwZwyDbMGGAd_u5j6IY9VkRRbVgfA8FxQ09b1plvjMDJLHA6EFaSS09MVl234idSS4QTkw/embed?start=false&loop=false&delayms=3000" 
+              className = "presentationSlides"
+              frameborder="0" 
+              width="960" height="569" 
+              allowfullscreen="true" 
+              mozallowfullscreen="true" 
+              webkitallowfullscreen="true"
+            />
+          </div>
+          
        </main>
 
       <div className='footer'>

@@ -204,7 +204,14 @@ footer a {
   margin: 10px;
 }
 
+.presentation {
+  margin-top: 50px;
+  text-align: center;
+}
 
+.italic {
+  text-decoration: strong;
+}
 
 .siteBuiltBy{
   color: #333333;
