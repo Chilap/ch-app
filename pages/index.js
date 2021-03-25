@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import getClubs from '../lib/getClubs'
+import getRooms from '../lib/getRooms'
 
-export default function Home({clubs}) {
+export default function Home({rooms}) {
   return (
     <div className="container">
       <Head>
@@ -124,13 +124,13 @@ export default function Home({clubs}) {
           <h3 className="description grid-description">👋 Press the card to schedule it </h3>
 
           <div className="grid">
-            {clubs.map(club => (
-              <a href={club.fields.URL} className="cardOfEvent" target="_blank">
+            {rooms.map(room => (
+              <a href={room.fields.URL} className="cardOfEvent" target="_blank">
               <p className="timeOfClub">
-                {club.fields.Time}
+                {room.fields.Time}
               </p>
-              <h3>{club.fields.Name}</h3>
-              <p>{club.fields.Description}</p>
+              <h3>{room.fields.Name}</h3>
+              <p>{room.fields.Description}</p>
             </a>
           ))}
           </div>
@@ -172,11 +172,11 @@ export default function Home({clubs}) {
 
 
 export async function getServerSideProps() {
-  const clubs = await getClubs();
+  const rooms = await getRooms();
 
   return {
     props: {
-      clubs,
+      rooms,
     },
   };
 }
