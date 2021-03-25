@@ -22,6 +22,7 @@ export default function Home({rooms}) {
           <a className = 'contributing-btn contributing-btn-color' href='https://forms.gle/qRm7hw1d5B6CvnXQA' target="_blank">💬 Request a Topic</a>
         </row>
         
+        
         <h3><a 
           href="https://www.joinclubhouse.com/club/%E3%80%8C%E6%94%9D%E5%BD%B1%E3%80%8D%E5%90%B9" 
           target="_blank" 
@@ -31,8 +32,10 @@ export default function Home({rooms}) {
           </span> &nbsp;
           攝影吹 's Top Speaker
         </a>
-        </h3>
 
+        
+
+        </h3>
         <div class="cards">
           <div class="card">
             <Image 
@@ -146,6 +149,39 @@ export default function Home({rooms}) {
               mozallowfullscreen="true" 
               webkitallowfullscreen="true"
             />
+          </div>
+          <div className = 'sponsorSection'>
+            <h3>Support us</h3>
+            {/* <div className = "sponsorColumn">
+              <a href="https://www.buymeacoffee.com/imytdotio" target="_blank">
+                <img 
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+                  alt="Buy Me A Coffee" 
+                  className = 'sponsorship-btn'
+                />
+              </a>
+              <p>🌱 Dev of the site</p>
+            </div> */}
+            <div className = "sponsorColumn">
+              <a href="https://www.buymeacoffee.com/imytdotio" target="_blank">
+                <img 
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+                  alt="Buy Me A Coffee" 
+                  className = 'sponsorship-btn'
+                />
+              </a>
+              <p>📸 Photoblow</p>
+            </div>
+            <div className = "sponsorColumn">
+              <a href="https://www.buymeacoffee.com/imytdotio" target="_blank">
+                <img 
+                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+                  alt="Buy Me A Coffee" 
+                  className = 'sponsorship-btn'
+                />
+              </a>
+              <p>📸 Photoblow</p>
+            </div>
           </div>
           
        </main>

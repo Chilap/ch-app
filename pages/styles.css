@@ -217,6 +217,28 @@ footer a {
   color: #333333;
 }
 
+.sponsorSection {
+  margin: 30px;
+  text-align: center;
+}
+
+.sponsorColumn {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sponsorship-btn {
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
