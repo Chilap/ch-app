@@ -92,29 +92,26 @@ main {
   margin: 50px;
 }
 
-.contributing-btn{
+/* .contributing-btn{
   background-color: #ffffff;
   margin: 10px;
   padding: 10px 20px;
   border-radius: 20px;
   display: inline-block;
   transition-duration: 0.2s;
-  
-}
+  text-align: center;
+} */
 
-.contributing-btn:hover{
+/* .contributing-btn:hover{
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: #345678;
-}
+} */
 
 .contributing-btn-color{
   background-color:#208f8f;
   color: #ffffff;
 }
 
-.contributing-btn-color:hover{
-  color: #ffffff;
-}
 
 .weeklySchedule{
   margin-top: 60px;

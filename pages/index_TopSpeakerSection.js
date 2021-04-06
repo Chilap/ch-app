@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function TopSpeakerSection() {
     return(
-        <div className = "topSpeakerSection">
+        <div className = "hidden lg:block" >
           <h3 className = 'sectionHeader'>
             <a 
               href="https://www.joinclubhouse.com/club/%E3%80%8C%E6%94%9D%E5%BD%B1%E3%80%8D%E5%90%B9" 
