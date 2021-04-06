@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function TopSpeakerSection() {
     return(
         <div className = "topSpeakerSection">
-          <h3>
+          <h3 className = 'sectionHeader'>
             <a 
               href="https://www.joinclubhouse.com/club/%E3%80%8C%E6%94%9D%E5%BD%B1%E3%80%8D%E5%90%B9" 
               target="_blank" 
@@ -15,8 +15,8 @@ export default function TopSpeakerSection() {
             </a>
           </h3>
           
-          <div class="cards">
-            <div class="card">
+          <div class="CPcards">
+            <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
                 src='/images/Yankov_icon.png' 
@@ -26,7 +26,7 @@ export default function TopSpeakerSection() {
               <h2><a href="https://www.instagram.com/yankovwong/" target = '_blank'>Yankov Wong</a></h2>
               <p>Commercial Photographer</p>
             </div>
-            <div class="card">
+            <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
                 src='/images/Eddie_icon.png' 
@@ -36,7 +36,7 @@ export default function TopSpeakerSection() {
               <h2><a href="https://www.instagram.com/eddie_huynh/" target = '_blank'>Eddie Huynh</a></h2>
               <p>🇭🇰 Photographer</p>
             </div>
-            <div class="card">
+            <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
                 src='/images/Roger_icon.png' 
@@ -46,7 +46,7 @@ export default function TopSpeakerSection() {
               <h2><a href="https://www.instagram.com/rogertanphotography/" target = '_blank'>Roger Tan</a></h2>
               <p>Top Wedding Photographer</p>
             </div>
-            <div class="card">
+            <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
                 src='/images/Daniel_icon.png' 
@@ -56,7 +56,7 @@ export default function TopSpeakerSection() {
               <h2><a href="https://www.instagram.com/danieltamig/" target = '_blank'>Daniel Tam</a></h2>
               <p>Top 10 Wedding Photographer</p>
             </div>
-            <div class="card">
+            <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
                 src='/images/Billy_icon.png' 

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-.container {
+.containery {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -31,13 +31,19 @@ main {
   text-align: center;
 }
 
+.sectionHeader {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
+}
 
-.cards {
+.CPcards {
   display: flex;
 }
 
-.card {
+.CPcard {
   background: white;
   border-radius: 1rem;
   padding: 1.5rem;
@@ -47,16 +53,16 @@ main {
   transition: 0.2s;
 }
 
-.card:not(:first-child) {
+.CPcard:not(:first-child) {
   margin-left: -2rem;
 }
 
-.card:not(:last-child):hover,
-.card:not(:last-child):focus-within {
+.CPcard:not(:last-child):hover,
+.CPcard:not(:last-child):focus-within {
   transform: translateY(-1rem);
 }
-.card:not(:last-child):hover ~ .card,
-.card:not(:last-child):focus-within ~ .card {
+.CPcard:not(:last-child):hover ~ .CPcard,
+.CPcard:not(:last-child):focus-within ~ .CPcard {
   transform: translateX(2rem);
 }
 
@@ -80,20 +86,6 @@ main {
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.grid-description{
-  color: #333333;
-  font-size: 18px;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
 }
 
 .contributing-row{
@@ -142,7 +134,21 @@ main {
   display: inline-block;
 }
 
-.cardOfEvent {
+.gridy {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* max-width: 800px; */
+  margin-top: 3rem;
+}
+
+.gridy-description{
+  color: #333333;
+  font-size: 18px;
+}
+
+/* .cardOfEvent {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -153,16 +159,7 @@ main {
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition-duration: 0.2s;
-}
-
-.cardOfEvent:hover,
-.cardOfEvent:focus,
-.cardOfEvent:active {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   */
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-
-}
+} */
 
 .cardOfEvent h3 {
   margin: 0 0 1rem 0;
@@ -174,6 +171,14 @@ main {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/* .cardOfEvent:hover,
+.cardOfEvent:focus,
+.cardOfEvent:active { */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   */
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
+/* } */
 
 .timeOfClub{
   color: #999999;
@@ -250,12 +255,12 @@ footer a {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 600px) {
-  .grid {
+/* @media (max-width: 600px) {
+  .gridy {
     width: 100%;
     flex-direction: column;
   }
-}
+} */
 
 
 
