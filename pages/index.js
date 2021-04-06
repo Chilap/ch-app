@@ -26,7 +26,7 @@ export default function Home({rooms}) {
         {/* <Rooms/> */}
         <div>
           <h3 className="description grid-description sectionHeader">👋 Press the card to schedule it </h3>
-          <div className="grid auto-rows-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+          <div className="grid auto-rows-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3">
             {rooms.sort()
               .map(room => (
               <a href={room.fields.URL} className="cardOfEvent m-6 p-6 text-left bg-white no-underline rounded-2xl border border-gray-200 border-solid duration-200 hover:shadow-lg active:shadow-lg w-80 md:w-80 lg:w-96 " target="_blank">
