@@ -40,7 +40,7 @@ export default function Home({rooms}) {
           </div>
         </div>
           <Presentation/>
-          <SponsorSection/>
+          {/* <SponsorSection/> */}
       </main>
       <Footer/>
       <style jsx>{``}</style>

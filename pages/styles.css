@@ -131,19 +131,19 @@ main {
   display: inline-block;
 }
 
-.gridy {
+/* .gridy {
   display: flex;
   align-items: left;
   justify-content: center;
   flex-wrap: wrap;
-  /* max-width: 800px; */
+  max-width: 800px;
   margin-top: 3rem;
 }
 
 .gridy-description{
   color: #333333;
   font-size: 18px;
-}
+} */
 
 /* .cardOfEvent {
   margin: 1rem;
@@ -193,20 +193,8 @@ footer {
   margin: 10px;
   margin-bottom: 20px;
 }
-footer img {
-  margin-left: 0.5rem;
-}
 
-footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.socialMediaIcon {
-  padding: 10px;
-  margin: 10px;
-}
 
 .presentation {
   margin-top: 50px;
@@ -250,6 +238,21 @@ footer a {
 
 .sponsorship-btn:hover {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer img {
+  margin-left: 0.5rem;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMediaIcon {
+  padding: 10px;
+  margin: 10px;
 }
 
 /* @media (max-width: 600px) {
