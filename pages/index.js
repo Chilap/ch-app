@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import getRooms from '../lib/getRooms'
 import Header from './index_Header'
+import Nav from './nav'
 import ContributingSection from './index_ContributingSection'
 import TopSpeakerSection from './index_TopSpeakerSection'
 // import WeeklySchedule from './index_WeeklySchedule'
@@ -18,6 +19,7 @@ export default function Home({rooms}) {
 
       <main>
         <Header/>
+        {/* <Nav/> */}
         <ContributingSection/>
         <TopSpeakerSection/>
         {/* <WeeklySchedule/> */}
@@ -25,7 +27,8 @@ export default function Home({rooms}) {
         <div>
           <h3 className="description grid-description">👋 Press the card to schedule it </h3>
           <div className="grid">
-            {rooms.map(room => (
+            {rooms.sort()
+              .map(room => (
               <a href={room.fields.URL} className="cardOfEvent" target="_blank">
                 <p className="timeOfClub">
                   {room.fields.Time}
