@@ -31,7 +31,7 @@ export default function Home({rooms}) {
               .map(room => (
               <a href={room.fields.URL} className="cardOfEvent m-6 p-6 text-left bg-white no-underline rounded-2xl border border-gray-200 border-solid duration-200 hover:shadow-lg active:shadow-lg w-80 md:w-80 lg:w-96 " target="_blank">
                 <p className="timeOfClub">
-                {room.fields.Time}
+                {room.fields.id}: {room.fields.Time}
                 </p>
                 <h3>{room.fields.Name}</h3>
                 <p>{room.fields.Description}</p>
