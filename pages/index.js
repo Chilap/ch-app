@@ -8,12 +8,7 @@ import TopSpeakerSection from './index_TopSpeakerSection'
 import Rooms from './index_Rooms'
 import Presentation from './index_Slides'
 import SponsorSection from './index_sponsorSection'
-import EventSchedule from './schedule'
 import Footer from './index_Footer'
-
-function compareNumbers(a, b) {
-  return a-b
-}
 
 export default function Home({rooms}) {
   return (

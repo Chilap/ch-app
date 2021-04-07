@@ -9,7 +9,7 @@ export default function Nav() {
         </Link>
       </li>
 			<li className='inline-block  px-3'>
-        <Link href="/schedule">
+        <Link href="/eventschedule">
           <a>Event</a>
         </Link>
       </li>
