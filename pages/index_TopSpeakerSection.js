@@ -26,6 +26,18 @@ export default function TopSpeakerSection() {
               <h2><a href="https://www.instagram.com/yankovwong/" target = '_blank'>Yankov Wong</a></h2>
               <p>Commercial Photographer</p>
             </div>
+
+            <div class="CPcard">
+              <Image 
+                className = 'topSpeakerIcon'
+                src='/images/Charlie_icon.png' 
+                width = {50} 
+                height = {50}
+              />
+              <h2><a href="https://www.instagram.com/charliekayi/" target = '_blank'>Charlie Kayi</a></h2>
+              <p>EntrepreNerd, Life Design</p>
+            </div>
+
             <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
@@ -36,16 +48,7 @@ export default function TopSpeakerSection() {
               <h2><a href="https://www.instagram.com/eddie_huynh/" target = '_blank'>Eddie Huynh</a></h2>
               <p>🇭🇰 Photographer</p>
             </div>
-            <div class="CPcard">
-              <Image 
-                className = 'topSpeakerIcon'
-                src='/images/Roger_icon.png' 
-                width = {50} 
-                height = {50}
-              />
-              <h2><a href="https://www.instagram.com/rogertanphotography/" target = '_blank'>Roger Tan</a></h2>
-              <p>Top Wedding Photographer</p>
-            </div>
+            
             <div class="CPcard">
               <Image 
                 className = 'topSpeakerIcon'
