@@ -10,7 +10,7 @@ export default function Nav() {
       </li>
 			<li className='inline-block  px-3'>
         <Link href="/eventschedule">
-          <a>Event</a>
+          <a>24April Event</a>
         </Link>
       </li>
     </ul>

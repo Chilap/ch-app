@@ -288,19 +288,24 @@ body {
 /* ----------------------------------- */
 
 /* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700); */
+* {
+  font-family: "Nunito";
+}
+
 body {
   background: #f2efe4;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 strong {
   font-weight: 600;
 }
+
+
 h1 {
-  font-family: "Nunito";
   letter-spacing: 1.5px;
   color: #333333;
   font-weight: 100;
-  font-size: 2.4em;
+  /* font-size: 2.4em; */
 }
 #content {
   margin-top: 50px;
