@@ -1,8 +1,10 @@
+import Nav from './nav'
+
 export default function EventSchedule() {
   return (
     <div id="content">
       <h1>0424</h1>
-
+    <Nav/>
       <ul className="timeline">
         <li className="event" data-date="7:00am - 07:45am">
           <h3>Circuit Training</h3>
