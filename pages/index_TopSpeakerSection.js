@@ -18,7 +18,7 @@ export default function TopSpeakerSection() {
       <div class="flex">
         <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
           <Image
-            className="topSpeakerIcon"
+            className="inline-block"
             src="/images/Yankov_icon.png"
             width={75}
             height={75}
@@ -33,7 +33,7 @@ export default function TopSpeakerSection() {
         
         <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
           <Image
-            className="topSpeakerIcon"
+            className="inline-block"
             src="/images/Charlie_icon.png"
             width={75}
             height={75}
@@ -47,7 +47,7 @@ export default function TopSpeakerSection() {
         </div>
         <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
           <Image
-            className="topSpeakerIcon"
+            className="inline-block"
             src="/images/Eddie_icon.png"
             width={75}
             height={75}
@@ -61,7 +61,7 @@ export default function TopSpeakerSection() {
         </div>
         <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
           <Image
-            className="topSpeakerIcon"
+            className="inline-block"
             src="/images/Daniel_icon.png"
             width={75}
             height={75}
@@ -75,7 +75,7 @@ export default function TopSpeakerSection() {
         </div>
         <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
           <Image
-            className="topSpeakerIcon"
+            className="inline-block"
             src="/images/Billy_icon.png"
             width={75}
             height={75}
