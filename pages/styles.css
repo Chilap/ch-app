@@ -11,6 +11,11 @@
   overflow: hidden;
 }
 
+.bg-clubhouse {
+  background-color: #f2efe4 !important;
+  font-family: "nunito";
+}
+
 main {
   padding: 5rem 0;
   flex: 1;

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import getRooms from '../lib/getRooms'
 import Header from './index_Header'
-import Nav from './nav'
 import ContributingSection from './index_ContributingSection'
 import TopSpeakerSection from './index_TopSpeakerSection'
 // import WeeklySchedule from './index_WeeklySchedule'
@@ -19,7 +18,6 @@ export default function Home({rooms}) {
 
       <main>
         <Header/>
-        <Nav/>
         <ContributingSection/>
         <TopSpeakerSection/>
         {/* <WeeklySchedule/> */}

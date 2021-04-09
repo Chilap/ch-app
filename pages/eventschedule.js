@@ -7,9 +7,8 @@ export default function EventSchedule() {
   return (
     <div>
       {/* -------------------------- Phone -------------------------- */}
-      <div className="w-screen p-6 md:px-40 lg:px-60">
+      <div className="bg-clubhouse w-screen p-6 md:px-40 lg:px-60">
         <Header />
-        <Nav />
 
         <h1 className="text-4xl m-6 text-center">0424 交配gogogo</h1>
         <div className="text-center"></div>

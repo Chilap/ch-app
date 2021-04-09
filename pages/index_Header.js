@@ -1,3 +1,5 @@
+import Nav from "./nav";
+
 export default function Presentation() {
   return (
     <div className="text-center m-6 ">
@@ -17,6 +19,7 @@ export default function Presentation() {
       <p className="text-center text-gray-700 m-3 md:hidden lg:hidden">
         關於攝影，無所不談；無所不吹。
       </p>
+      <Nav />
     </div>
   );
 }
