@@ -47,7 +47,7 @@ export default function EventSchedule() {
                     ✳️ Yankov <span className="hidden md:inline">Wong</span>
                   </p>
                   <Image
-                    className="topSpeakerIcon"
+                    className="inline-block"
                     src="/images/Yankov_icon.png"
                     width={100}
                     height={100}
@@ -80,7 +80,7 @@ export default function EventSchedule() {
                 <div className="speaker">
                   <p>✳️ Charlie Kayi</p>
                   <Image
-                    className="topSpeakerIcon "
+                    className="inline-block "
                     src="/images/Charlie_icon.png"
                     width={100}
                     height={100}
@@ -118,7 +118,7 @@ export default function EventSchedule() {
                     ✳️ Season <span className="hidden md:inline">Wong</span>
                   </p>
                   <Image
-                    className="topSpeakerIcon"
+                    className="inline-block"
                     src="/images/Season_icon.png"
                     width={100}
                     height={100}
@@ -154,7 +154,7 @@ export default function EventSchedule() {
                 <div className="speaker">
                   <p>✳️ Yankov Wong</p>
                   <Image
-                    className="topSpeakerIcon"
+                    className="inline-block"
                     src="/images/Yankov_icon.png"
                     width={100}
                     height={100}

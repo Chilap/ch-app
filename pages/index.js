@@ -15,7 +15,8 @@ export default function Home({rooms}) {
       <Head>
         <title>📸 攝影吹</title>
       </Head>
-
+      
+      {/* <div className = "bg-clubhouse w-screen p-6 md:px-40 lg:px-60"> */}
       <main>
         <Header/>
         <ContributingSection/>
@@ -23,16 +24,16 @@ export default function Home({rooms}) {
         {/* <WeeklySchedule/> */}
         {/* <Rooms/> */}
         <div>
-          <h3 className="description grid-description sectionHeader">👋 Press the card to schedule it </h3>
+          <h3 className="text-center mt-4 text-xl p-4 font-bold">👋 Press the card to schedule it </h3>
           <div className="grid auto-rows-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3">
             {rooms.sort()
               .map(room => (
               <a href={room.fields.URL} className="cardOfEvent m-6 p-6 text-left bg-white no-underline rounded-2xl border border-gray-200 border-solid duration-200 hover:shadow-lg active:shadow-lg w-80 md:w-80 lg:w-96 " target="_blank">
-                <p className="timeOfClub">
+                <p className="text-gray-500 text-sm">
                 {room.fields.Time}
                 </p>
-                <h3>{room.fields.Name}</h3>
-                <p>{room.fields.Description}</p>
+                <h3 className = 'mb-3 text-xl font-medium'>{room.fields.Name}</h3>
+                <p className = 'm-0 text-base leading-7'>{room.fields.Description}</p>
               </a>
             ))}
           </div>
@@ -44,6 +45,7 @@ export default function Home({rooms}) {
 
           {/* <SponsorSection/> */}
       </main>
+      {/* </div> */}
       <Footer/>
       <style jsx>{``}</style>
     </div>
