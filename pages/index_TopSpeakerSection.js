@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TopSpeakerSection() {
   return (
     <div className="hidden lg:block m-6">
-      <h3 className="text-center m-4 text-xl p-4 font-bold">
+      <h3 className="sectionHeader">
         <a
           href="https://www.joinclubhouse.com/club/%E3%80%8C%E6%94%9D%E5%BD%B1%E3%80%8D%E5%90%B9"
           target="_blank"
@@ -15,13 +15,13 @@ export default function TopSpeakerSection() {
         </a>
       </h3>
 
-      <div class="flex">
-        <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
+      <div class="CPcards">
+        <div class="CPcard">
           <Image
             className="topSpeakerIcon"
             src="/images/Yankov_icon.png"
-            width={75}
-            height={75}
+            width={50}
+            height={50}
           />
           <h2>
             <a href="https://www.instagram.com/yankovwong/" target="_blank">
@@ -31,12 +31,12 @@ export default function TopSpeakerSection() {
           <p>Commercial Photographer</p>
         </div>
         
-        <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
+        <div class="CPcard">
           <Image
             className="topSpeakerIcon"
             src="/images/Charlie_icon.png"
-            width={75}
-            height={75}
+            width={50}
+            height={50}
           />
           <h2>
             <a href="https://www.instagram.com/charliekayi/" target="_blank">
@@ -45,12 +45,12 @@ export default function TopSpeakerSection() {
           </h2>
           <p>EntrepreNerd, Life Design</p>
         </div>
-        <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
+        <div class="CPcard">
           <Image
             className="topSpeakerIcon"
             src="/images/Eddie_icon.png"
-            width={75}
-            height={75}
+            width={50}
+            height={50}
           />
           <h2>
             <a href="https://www.instagram.com/eddie_huynh/" target="_blank">
@@ -59,12 +59,12 @@ export default function TopSpeakerSection() {
           </h2>
           <p>🇭🇰 Photographer</p>
         </div>
-        <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
+        <div class="CPcard">
           <Image
             className="topSpeakerIcon"
             src="/images/Daniel_icon.png"
-            width={75}
-            height={75}
+            width={50}
+            height={50}
           />
           <h2>
             <a href="https://www.instagram.com/danieltamig/" target="_blank">
@@ -73,12 +73,12 @@ export default function TopSpeakerSection() {
           </h2>
           <p>Top 10 Wedding Photographer</p>
         </div>
-        <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
+        <div class="CPcard">
           <Image
             className="topSpeakerIcon"
             src="/images/Billy_icon.png"
-            width={75}
-            height={75}
+            width={50}
+            height={50}
           />
           <h2>
             <a href="https://www.instagram.com/billyiu/" target="_blank">

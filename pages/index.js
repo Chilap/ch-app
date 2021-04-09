@@ -25,7 +25,7 @@ export default function Home({rooms}) {
         {/* <WeeklySchedule/> */}
         {/* <Rooms/> */}
         <div>
-          <h3 className="text-center mt-4 text-xl p-4 font-bold">👋 Press the card to schedule it </h3>
+          <h3 className="description grid-description sectionHeader">👋 Press the card to schedule it </h3>
           <div className="grid auto-rows-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3">
             {rooms.sort()
               .map(room => (

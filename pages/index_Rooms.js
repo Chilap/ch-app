@@ -3,8 +3,8 @@ import getRooms from "../lib/getRooms";
 export default function Rooms({ rooms }) {
   return (
     <div>
-      <h3 className="">
-        👋 Press the card to schedule it
+      <h3 className="description grid-description m-6">
+        👋 Press the card to schedule it{" "}
       </h3>
       <div className="grid">
         {rooms.map((room) => (
