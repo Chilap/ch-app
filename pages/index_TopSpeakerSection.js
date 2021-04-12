@@ -76,6 +76,20 @@ export default function TopSpeakerSection() {
         <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
           <Image
             className="inline-block"
+            src="/images/Raven_icon.png"
+            width={75}
+            height={75}
+          />
+          <h2>
+            <a href="https://www.instagram.com/billyiu/" target="_blank">
+              Raven Tsoi
+            </a>
+          </h2>
+          <p>Top 10 Wedding Photographer</p>
+        </div>
+        <div class="bg-white rounded-2xl p-4 shadow-2xl duration-200 CPcard">
+          <Image
+            className="inline-block"
             src="/images/Billy_icon.png"
             width={75}
             height={75}
