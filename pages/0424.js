@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer from "./index_Footer";
 import Header from "./index_Header";
 
-export default function EventSchedule() {
+export default function E0424() {
   return (
     <div>
       {/* -------------------------- Phone -------------------------- */}
@@ -15,16 +15,8 @@ export default function EventSchedule() {
 
         <div className="mt-12">
           <p className="my-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi odio
-            erat, consequat in est non, vestibulum dictum lacus. Fusce commodo
-            sollicitudin rhoncus. Pellentesque a quam in turpis tincidunt
-            consequat. Sed a viverra arcu, a pulvinar quam. Etiam lobortis elit
-            eu sem mollis finibus eu nec ligula. Nunc sollicitudin varius velit,
-            sed lacinia est pellentesque in. Praesent at sollicitudin lectus.
-            Curabitur lacinia euismod neque eu pellentesque. Donec ac imperdiet
-            purus. Maecenas vel malesuada purus. Duis laoreet mi vehicula,
-            tempus urna nec, pulvinar ligula. Nulla id vulputate leo.
-            Suspendisse auctor velit id sapien sollicitudin ultrices.
+            ⏱ 12:30(PM) ~ 20:00(PM) <br />
+            🏠 地點：柴灣工業城2期18樓1809室 <br />
             <br />
             <br />
             👋 See you online!

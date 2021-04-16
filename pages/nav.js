@@ -9,12 +9,12 @@ export default function Nav() {
         </Link>
       </li>
 
-      <br className='inline-block md:hidden'/>
+      {/* <br className='inline-block md:hidden'/>
 			<li className='inline-block  px-3 underline'>
         <Link href="/eventschedule">
           <a>🎫 24April Event</a>
         </Link>
-      </li>
+      </li> */}
 
       <br className='inline-block md:hidden'/>
       <li className='inline-block px-3 underline'>
