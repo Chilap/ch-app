@@ -11,7 +11,7 @@ export default function Nav() {
 
       <br className='inline-block md:hidden'/>
 			<li className='inline-block  px-3 underline'>
-        <Link href="/eventschedule">
+        <Link href="/0424">
           <a>🎫 24April Event</a>
         </Link>
       </li>

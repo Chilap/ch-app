@@ -84,6 +84,7 @@ export default function Popup() {
                   <a
                     href="https://www.instagram.com/danieltamig"
                     className="text-blue-700"
+                    target = '_blank'
                   >
                     IG @danieltamig
                   </a>
@@ -91,6 +92,7 @@ export default function Popup() {
                   <a
                     href="https://www.joinclubhouse.com/event/MOGbGGRL"
                     className="text-blue-700"
+                    target = '_blank'
                   >
                     {" "}
                     🔗 Clubhouse link

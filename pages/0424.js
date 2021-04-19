@@ -1,5 +1,6 @@
 import Nav from "./nav";
 import Image from "next/image";
+import Link from 'next/link';
 import Footer from "./index_Footer";
 import Header from "./index_Header";
 
@@ -14,14 +15,16 @@ export default function E0424() {
         <div className="text-center"></div>
 
         <div className="mt-12 text-center">
-          <Image
-            src="/images/0424_poster.jpg"
-            width="580"
-            height="580"
-            className="shadow-2xl"
-          />
+          <Link href='https://www.joinclubhouse.com/event/MOGbGGRL' target = '_blank'>
+            <Image
+              src="/images/0424_poster.jpg"
+              width="580"
+              height="580"
+              className="shadow-2xl"
+            />
+          </Link>
         </div>
-        
+
         <div className="mt-12 text-center">
           {/* ------------- Section ------------- */}
           <h1 className="text-center text-3xl">🗓 Timetable</h1>
