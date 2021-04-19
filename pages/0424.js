@@ -10,17 +10,19 @@ export default function E0424() {
       <div className="bg-clubhouse w-screen p-6 md:px-40 lg:px-60">
         <Header />
 
-        <h1 className="text-4xl m-6 text-center">0424 交配gogogo</h1>
+        {/* <h1 className="text-4xl m-6 text-center">0424 交配gogogo</h1> */}
         <div className="text-center"></div>
 
-        <div className="mt-12">
-          <p className="my-12">
-            ⏱ 12:30(PM) ~ 20:00(PM) <br />
-            🏠 地點：柴灣工業城2期18樓1809室 <br />
-            <br />
-            <br />
-            👋 See you online!
-          </p>
+        <div className="mt-12 text-center">
+          <Image
+            src="/images/0424_poster.jpg"
+            width="580"
+            height="580"
+            className="shadow-2xl"
+          />
+        </div>
+        
+        <div className="mt-12 text-center">
           {/* ------------- Section ------------- */}
           <h1 className="text-center text-3xl">🗓 Timetable</h1>
           <div className="grid p-6 mt-3 my-6 text-left bg-white rounded-2xl shadow-md duration-150 ">
