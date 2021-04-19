@@ -76,7 +76,7 @@ export default function Popup() {
                   活動內容： <br />
                   🤵🏻 YANKOV 💡燈與光 <br />
                   🤵🏻 SEASON 🛠創作與製作 <br />
-                  🤵🏻 DAVE 🎨顯示與印刷 <br />
+                  🤵🏻 DAVE &nbsp; &nbsp; &nbsp; 🎨顯示與印刷 <br />
                   👩 SHIRLEY 💃🏻女攝與女模 <br />
                   <hr className="my-3" />
                   📅：24-04-2021｜⌚️：12:30-20:30｜📍：港島東區 <br />
